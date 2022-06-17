@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should test NavBar component should test collapse navbar 1`] = `
+<nav
+  className="navbar navbar-expand-lg navbar-light"
+  style={
+    Object {
+      "backgroundColor": "#e3f2fd",
+    }
+  }
+>
+  <div
+    className="container-fluid"
+  >
+    <a
+      className="navbar-brand"
+      onClick={[Function]}
+    >
+      Gestionappte
+    </a>
+    <button
+      aria-controls="navbarColor03"
+      aria-expanded={true}
+      aria-label="Toggle navigation"
+      className="navbar-toggler"
+      data-bs-target="#navbarColor03"
+      data-bs-toggle="collapse"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="  navbar-collapse"
+      id="navbarColor03"
+    >
+      <ul
+        className="navbar-nav me-auto mb-2 mb-lg-0"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            onClick={[Function]}
+          >
+            Agendamiento
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            onClick={[Function]}
+          >
+            Reservaciones
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-item nav-link"
+            onClick={[Function]}
+          >
+            Estadisticas
+          </a>
+        </li>
+      </ul>
+      <div
+        className="d-flex"
+      >
+        <ul
+          className="navbar-nav mr-auto"
+        >
+          <span
+            className="nav-item nav-link text-info"
+          >
+            Alejandro
+          </span>
+          <button
+            className="nav-item nav-link btn"
+            onClick={[Function]}
+          >
+            Logout
+          </button>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+`;
